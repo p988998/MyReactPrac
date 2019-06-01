@@ -1,4 +1,4 @@
-export default (state = {reduxName: 'reduxName'}, action) => {
+export default (state = {reduxName: 'reduxName123'}, action) => {
     switch (action.type) {
      case 'SIMPLE_ACTION':
       return {
