@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e7c1a87-debd-4d54-b0e0-20370823953f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button-events/EventDemo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-events/EventDemo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/simpleAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/simpleAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/createRedux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/createRedux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/simpleReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/simpleReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,12 +17,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.4804826">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+                <state relative-caret-position="45">
+                  <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -38,8 +33,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/redux/createRedux.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="135">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                   <folding>
                     <element signature="e#0#53#0" expanded="true" />
                   </folding>
@@ -50,8 +45,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/redux/reducers/rootReducer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+                <state relative-caret-position="30">
+                  <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
                   </folding>
@@ -62,8 +57,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+                <state relative-caret-position="135">
+                  <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -75,7 +70,7 @@
             <entry file="file://$PROJECT_DIR$/src/redux/actions/simpleAction.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="90">
-                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
                 </state>
               </provider>
             </entry>
@@ -83,12 +78,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/redux/reducers/simpleReducer.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
-                  <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+                  <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -96,7 +91,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/button-events/EventDemo.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-342">
+                <state relative-caret-position="15">
                   <caret line="35" column="18" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
@@ -136,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,7 +201,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,22 +242,24 @@
       <updated>1549778201099</updated>
       <workItem from="1549778208309" duration="22000" />
       <workItem from="1555803145091" duration="817000" />
+      <workItem from="1559622125012" duration="322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11174000" />
+    <option name="totallyTimeSpent" value="11671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="1" />
+    <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -275,6 +271,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27046633" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32953367" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -314,6 +311,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/ajv/lib/keyword.js" />
@@ -344,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="45">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -354,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/createRedux.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="135">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
@@ -364,8 +375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/reducers/rootReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="30">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -374,27 +385,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/simpleReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/button-events/EventDemo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -402,7 +396,24 @@
     <entry file="file://$PROJECT_DIR$/src/redux/actions/simpleAction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/simpleReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/button-events/EventDemo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
