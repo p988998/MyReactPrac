@@ -5,18 +5,28 @@ import { simpleAction } from '../redux/actions/simpleAction';
 class EventDemo extends React.Component {
   constructor(props) {
       super();
-      this.state = { count: 0 , newName: 'YangSB'};
+      this.state = {  count: 0,
+                      newName: 'YangSB',
+                      serverId: 10,
+                      serverStatus: 'offLine',
+                      isLoggedIn: false,
+                      username: '',
+                      password: ''};
       this.myName = props.myName;
       this.handleSubmit = this.handleSubmit.bind(this);
       this.handleRedux = this.handleRedux.bind(this);
+      this.getServerStatus = this.getServerStatus.bind(this);
+      this.counterPlus = this.counterPlus.bind(this);
+      this.resetCounter = this.resetCounter.bind(this);
+      this.handleLoginClick = this.handleLoginClick.bind(this);
+      this.handleLogoutClick = this.handleLogoutClick.bind(this);
+      this.handleChange = this.handleChange.bind(this);
       console.log(props.myName);
 
-      this.student = {
-        name: 'wang',
-        age: 8,
-        major: 'math',
-      };
-
+      this.students = [ {name: 'Bill Gates', age: 10, major: 'Computer Science'},
+                        {name: 'Steve Jobs', age: 11, major: 'Computer Science'} ,
+                        {name: 'Elon Musk', age: 12, major: 'Computer Science'}
+                        ];
   }
 
   componentWillMount() {
@@ -36,30 +46,92 @@ class EventDemo extends React.Component {
         this.props.simpleAction();
     }
 
+    getServerStatus(){
+        console.log('server status');
+        return this.state.serverStatus;
+    }
+
+    counterPlus(){
+      this.setState(state => ({
+          count: state.count +1
+      }))
+    }
+
+    resetCounter(){
+        this.setState(state => ({
+            count: 0
+        }))
+    }
+    handleLoginClick(event) {
+        this.setState(state => ({
+            isLoggedIn: true}));
+        event.preventDefault();
+    }
+
+    handleLogoutClick(event) {
+        this.setState({isLoggedIn: false});
+        this.setState({username: ''});
+        event.preventDefault();
+    }
+
+    handleChange(event) {
+        this.setState({username: event.target.value});
+    }
+
+
     render() {
       console.log(this.props.simpleReducer.reduxName);
-      let a = this.student.name;
-      return (
+        const listItems = this.students.map((Student) =>
+            <li key={Student.name}>
+                <span className="studentBox">{Student.name}</span>
+                <span className="studentBox">{Student.age}</span>
+                <span className="studentBox">{Student.major}</span>
+            </li>);
+
+        return (
+
+
        <div>
-         This is my Name: {a}
-         <div>
-         This is my newName: {this.state.newName}
-         </div>
-         <div>
-         This is my reduxName: {this.props.simpleReducer.reduxName}
-         </div>
-         <div>
-           This is a counter: {this.state.count}
-         </div>
+           <p> Server with ID { this.state.serverId }  is { this.state.serverStatus } </p>
+           <p> { 'Server' } with ID { this.state.serverId }  is { this.state.serverStatus } </p>
+           <p> { 'Server' } with ID { this.state.serverId }  is { this.getServerStatus() } </p>
+           <hr/>
+           <h4>This is a counter</h4>
+           <p> {this.state.count} </p>
+           <div >
+               <button className={'btn-primary'} onClick={this.counterPlus}> plus one</button>
+               <button className={'btn-primary'} onClick={this.resetCounter}> reset counter</button>
+           </div>
 
-         <div>
-          <button onClick={this.handleSubmit}> Plus </button>
-         </div>
+           <hr/>
+           <h4>This is a input Box with Event Binding</h4>
+           <form onSubmit={this.handleLoginClick}>
+               <label>
+                   User Name:
+                   <input type="text" value={this.state.username} onChange={this.handleChange} />
+               </label>
+               <label>
+                   Password:
+                   <input type="password" name = 'password'/>
+               </label>
+               <input type="submit" value="Submit" />
+               <button onClick={this.handleLogoutClick}>log out</button>
+           </form>
+           <div>
+               {this.state.isLoggedIn ? (
+                   <span>you logged in as {this.state.username}</span>
+               ) : (
+                   <span>you are not logged in</span>
+               )}
+           </div>
 
-         <div>
-          <button className={'btn-primary'} onClick={this.handleRedux}> Redux </button>
-         </div>
-
+           <hr/>
+           <h4>This is a StudentList managed by for loop</h4>
+           <div>
+               <ul>
+                   {listItems}
+               </ul>
+           </div>
 
        </div>
       );

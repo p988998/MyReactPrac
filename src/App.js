@@ -15,6 +15,7 @@ class App extends Component {
        <EventDemo
         myName = 'Jason'
        />
+
       </div>
     );
   }
@@ -30,3 +31,6 @@ const mapDispatchToProps = dispatch => ({
  })
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
+
+
+
